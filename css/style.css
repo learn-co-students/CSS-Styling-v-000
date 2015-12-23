@@ -1,15 +1,7 @@
 /*
 	CSS Styles for Exceptional Realty Website
 */
-
-/*
-	Type selectors
-*/
-
-/* Border for seeing size of margins and padding when testing */
-* {
-	border: black 1px solid;
-}
+* {line-height: 1.5em;}
 
 /* Background */
 body {
@@ -21,7 +13,8 @@ body {
 /* Header */
 header {
 	background-color: rgba(0,0,0,0.8);
-	position: fixed;
+	position: absolute;
+	top: 0;
 	margin: 0 auto;
 	padding: .3em;
 	width: 100%;
@@ -82,39 +75,64 @@ a:hover, a:active {
 }
 
 /* Content in sections */
+body h2 {
+	width: 70%;
+	margin: 0 auto;
+}
+
 section {
 	width: 70%;
 	margin: 0 auto;
-	margin-top: .5em;
-	padding-left, padding-right: 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em 1em 0.5em 1em;
 	background-color: rgba(255, 255, 255, .4);
-	text-align: center;
 }
 section * {
 	max-width: 90%;
 	margin: 0 auto;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 section img {
 	max-width: 100%;
 }
 figure figcaption {
-	font: .7em/1.5 sans-serif;
+	font: .8em sans-serif;
 	color:  rgba(55,17,21, 1);
-	background-color: white;
-	margin-top: 0.5em;
+	margin: 0 auto;
+	margin-bottom: 1.3em;
 }
 
 section p {
 	font: 1em/1.5 sans-serif;
 }
 
+
+figure {
+	text-align: center;
+}
+
+/* Bottom of the page */
 section:last-of-type {
 	margin-bottom: 2em;
 }
+#details {
+	background-color: white;
+}
+#details div {
+	display: inline-block;
+	height: 90%;
+	width: 24%;
+	margin: 0em .1em;
+	vertical-align: top;
+}
+#details div h3 + * {
+	padding-left: 1em;
+}
 
+/* Footer*/
 footer {
 	width: 100%;
 	bottom: 0;
@@ -122,11 +140,63 @@ footer {
 	left: 0;
 	padding: .1em;
 	position: fixed;
-	background-color: white;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
 	text-align: center;
 }
 
-body h2 {
-	width: 70%;
+/* Page specfic stylings */
+
+/* Market report */
+#market-report {
+	text-align: center;
+}
+#market-report table {
+	width: 90%;
+}
+#market-report table tr * {
+	min-width: 20%;
+	border: black 1px solid;
+	padding: 1em;
+	margin: 0;
+	white-space: pre-wrap;
+}
+#market-report table th,td {
+	display: inline-block;
+}
+
+/* Contact (map and email on contact.html)*/
+#contact section {
+	width: 49%;
+	height: 100%;
+	margin: 0em;
+	padding: 0em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#map {
+	width: 100%;
+	padding: 0;
 	margin: 0 auto;
+	text-align: center;
+	left: 0;
+}
+
+#message-form div {
+	margin: 0em;
+	padding: 0em;
+	width: 100%;
+	display: inline-block;
+}
+#message-form div * {
+	display: inline-block;
+	margin: 0;
+
+}
+#message-form input{
+	float: right;
+}
+#message-form textarea {
+	width: 80%
 }
