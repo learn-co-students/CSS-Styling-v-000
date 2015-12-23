@@ -1,0 +1,102 @@
+/*
+	CSS Styles for Exceptional Realty Website
+*/
+
+/*
+	Type selectors
+*/
+
+* {
+	border: black 1px solid;
+}
+
+/* Background */
+body {
+	background: url(../images/house-background.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+/* Header */
+header {
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	margin: 0 auto;
+	padding: .3em;
+	width: 100%;
+	max-height: 10%;
+}
+header * {margin: 1em;}
+
+/* Company Name */
+	header h1, header h2 {
+		margin: .5em 0em;
+		margin-left: .5em;
+		float: left;
+		color: white;
+		font-size: 2em;
+	}
+
+/* Navbar for website */
+	header nav	{
+		float: right;
+		margin: .3em 1em;
+		padding: 1em .5em 1em 1em;
+		background-color: rgba(255, 255, 255, .5);
+		border-radius: 1.5em/2em;
+		max-height: 80%;
+	}
+
+	header nav a {
+		background-color: rgba(255,255,255, .7);
+		margin: 0 auto;
+		padding: 0.3em;
+		border-radius: 10%/25%;
+	}
+
+/*	Links	*/
+a {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: purple;
+}
+a:hover, a:active {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* Content in sections */
+section {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 3em;
+	background-color: rgba(255, 255, 255, .4);
+	text-align: center;
+}
+
+section * {margin: 0 auto;}
+
+section figure{
+	background-color: white;
+}
+
+section img {
+	max-width: 100%;
+}
+
+section p {
+	font: 1em/1.5 sans-serif;
+	max-width: 90%;
+}
+
+figure figcaption {
+	font: .7em/1.5 sans-serif;
+	color:  rgba(55,17,21, 1);
+}
+
+footer {
+	text-align: center;
+}
