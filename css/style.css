@@ -1,7 +1,29 @@
 /*
 	CSS Styles for Exceptional Realty Website
 */
-* {line-height: 1.5em;}
+
+/* Font links */
+@import url(https://fonts.googleapis.com/css?family=Arizonia);
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Delius+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Delius+Unicase);
+
+* {
+	line-height: 1.5em;
+	font-family: 'Delius Swash Caps', Arial, sans-serif, serif;
+}
+
+/* Font styles */
+#logo h1, #logo h2 {
+	font-family: 'Arizonia';
+}
+nav a {
+	font-family: 'Gabriela';
+}
+h3 {
+	font-family: 'Delius Unicase';
+	color: rgb(75,139,197);
+}
 
 /* Background */
 body {
@@ -12,8 +34,8 @@ body {
 
 /* Header */
 header {
-	background-color: rgba(0,0,0,0.8);
-	position: absolute;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
 	top: 0;
 	margin: 0 auto;
 	padding: .3em;
@@ -26,7 +48,7 @@ header + section {
 	margin-top: 5.5em;
 }
 
-header + h1, header + h2, header + h3, header + h4, header + h5, header + h6 {
+header + h1, header + h2{
 	margin: 0 auto;
 	margin-top: 4.5em;
 	padding: .3em 0em;
@@ -86,7 +108,7 @@ section {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	padding: 0.5em 1em 0.5em 1em;
-	background-color: rgba(255, 255, 255, .4);
+	background-color: rgba(255, 255, 255, .9);
 }
 section * {
 	max-width: 90%;
@@ -99,16 +121,11 @@ section img {
 	max-width: 100%;
 }
 figure figcaption {
-	font: .8em sans-serif;
+	font: .5em;
 	color:  rgba(55,17,21, 1);
 	margin: 0 auto;
 	margin-bottom: 1.3em;
 }
-
-section p {
-	font: 1em/1.5 sans-serif;
-}
-
 
 figure {
 	text-align: center;
@@ -118,14 +135,12 @@ figure {
 section:last-of-type {
 	margin-bottom: 2em;
 }
-#details {
-	background-color: white;
-}
+/* Details */
 #details div {
 	display: inline-block;
 	height: 90%;
-	width: 24%;
-	margin: 0em .1em;
+	max-width: 24%;
+	margin: 0em 1.3em;
 	vertical-align: top;
 }
 #details div h3 + * {
