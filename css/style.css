@@ -6,6 +6,7 @@
 	Type selectors
 */
 
+/* Border for seeing size of margins and padding when testing */
 * {
 	border: black 1px solid;
 }
@@ -25,32 +26,37 @@ header {
 	padding: .3em;
 	width: 100%;
 	max-height: 10%;
+	z-index: 1;
 }
-header * {margin: 1em;}
+
+header + section {
+	margin-top: 7em;
+}
 
 /* Company Name */
-	header h1, header h2 {
-		margin: .5em 0em;
-		margin-left: .5em;
-		float: left;
+	header div * {
+		margin: .2em 0em .4em .5em;
+		display: inline-block;
 		color: white;
-		font-size: 2em;
 	}
 
 /* Navbar for website */
 	header nav	{
-		float: right;
-		margin: .3em 1em;
-		padding: 1em .5em 1em 1em;
 		background-color: rgba(255, 255, 255, .5);
 		border-radius: 1.5em/2em;
+		float: right;
+		padding: 1em .5em 1em 1em;
+		margin-right: 1em;
 		max-height: 80%;
+		top: 0.5em;
+		right: 0em;
+		position: absolute;
 	}
 
 	header nav a {
 		background-color: rgba(255,255,255, .7);
 		margin: 0 auto;
-		padding: 0.3em;
+		padding: 0.5em .4em;
 		border-radius: 10%/25%;
 	}
 
@@ -71,32 +77,33 @@ a:hover, a:active {
 section {
 	width: 70%;
 	margin: 0 auto;
-	margin-top: 2em;
-	padding: 3em;
+	padding-left, padding-right: 3em;
 	background-color: rgba(255, 255, 255, .4);
 	text-align: center;
 }
-
-section * {margin: 0 auto;}
-
-section figure{
-	background-color: white;
+section * {
+	width: 90%;
+	margin: 0 auto;
 }
-
 section img {
 	max-width: 100%;
 }
 
 section p {
 	font: 1em/1.5 sans-serif;
-	max-width: 90%;
 }
 
 figure figcaption {
 	font: .7em/1.5 sans-serif;
 	color:  rgba(55,17,21, 1);
+	background-color: white;
 }
 
 footer {
 	text-align: center;
+}
+
+body h2 {
+	width: 70%;
+	margin: 0 auto;
 }
