@@ -48,14 +48,6 @@ header + section {
 	margin-top: 5.5em;
 }
 
-header + h1, header + h2{
-	margin: 0 auto;
-	margin-top: 4.5em;
-	padding: .3em 0em;
-	width: 70%;
-	text-align: center;
-}
-
 /* Company Name */
 	header #logo * {
 		margin: .2em 0em .4em .5em;
@@ -188,6 +180,10 @@ footer {
 	padding: 0em;
 	display: inline-block;
 	vertical-align: top;
+}
+
+#contact h3 {
+	text-align: center;
 }
 
 #map {
