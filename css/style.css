@@ -30,11 +30,19 @@ header {
 }
 
 header + section {
-	margin-top: 7em;
+	margin-top: 5.5em;
+}
+
+header + h1, header + h2, header + h3, header + h4, header + h5, header + h6 {
+	margin: 0 auto;
+	margin-top: 4.5em;
+	padding: .3em 0em;
+	width: 70%;
+	text-align: center;
 }
 
 /* Company Name */
-	header div * {
+	header #logo * {
 		margin: .2em 0em .4em .5em;
 		display: inline-block;
 		color: white;
@@ -77,29 +85,44 @@ a:hover, a:active {
 section {
 	width: 70%;
 	margin: 0 auto;
+	margin-top: .5em;
 	padding-left, padding-right: 3em;
 	background-color: rgba(255, 255, 255, .4);
 	text-align: center;
 }
 section * {
-	width: 90%;
+	max-width: 90%;
 	margin: 0 auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
+
 section img {
 	max-width: 100%;
+}
+figure figcaption {
+	font: .7em/1.5 sans-serif;
+	color:  rgba(55,17,21, 1);
+	background-color: white;
+	margin-top: 0.5em;
 }
 
 section p {
 	font: 1em/1.5 sans-serif;
 }
 
-figure figcaption {
-	font: .7em/1.5 sans-serif;
-	color:  rgba(55,17,21, 1);
-	background-color: white;
+section:last-of-type {
+	margin-bottom: 2em;
 }
 
 footer {
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: .1em;
+	position: fixed;
+	background-color: white;
 	text-align: center;
 }
 
