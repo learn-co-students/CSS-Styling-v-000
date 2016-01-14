@@ -1,0 +1,26 @@
+/* this is a comment 
+
+
+CSS is made up of 
+
+selector {
+  
+  property: value; (end ;)
+  property: value
+}
+
+Type selector allows us to selector elements using the tag name
+*/
+p { /* will select all p elements like this} */
+
+front-size: 1em; /* is better than px 16 / the number of px */
+line-height: 1.5em; }
+
+figcaption {
+front-weight: normal;
+front-size: 0.75em;
+line-height: 1.5em;
+front-family: Georgia, "New Times Roman", serif;
+
+}
+
