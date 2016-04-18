@@ -1,0 +1,213 @@
+/*
+	CSS Styles for Exceptional Realty Website
+*/
+
+/* Font links */
+@import url(https://fonts.googleapis.com/css?family=Arizonia);
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Delius+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Delius+Unicase);
+
+* {
+	line-height: 1.5em;
+	font-family: 'Delius Swash Caps', Arial, sans-serif, serif;
+}
+
+/* Font styles */
+#logo h1, #logo h2 {
+	font-family: 'Arizonia';
+}
+nav a {
+	font-family: 'Gabriela';
+}
+h3 {
+	font-family: 'Delius Unicase';
+	color: rgb(75,139,197);
+}
+
+/* Background */
+body {
+	background: url(../images/house-background.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+/* Header */
+header {
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	padding: .3em;
+	width: 100%;
+	max-height: 10%;
+	z-index: 1;
+}
+
+header + section {
+	margin-top: 5.5em;
+}
+
+/* Company Name */
+	header #logo * {
+		margin: .2em 0em .4em .5em;
+		display: inline-block;
+		color: white;
+	}
+
+/* Navbar for website */
+	header nav	{
+		background-color: rgba(255, 255, 255, .5);
+		border-radius: 1.5em/2em;
+		float: right;
+		padding: 1em .5em 1em 1em;
+		margin-right: 1em;
+		max-height: 80%;
+		top: 0.5em;
+		right: 0em;
+		position: absolute;
+	}
+
+	header nav a {
+		background-color: rgba(255,255,255, .7);
+		margin: 0 auto;
+		padding: 0.5em .4em;
+		border-radius: 10%/25%;
+	}
+
+/*	Links	*/
+a {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: purple;
+}
+a:hover, a:active {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* Content in sections */
+body h2 {
+	width: 70%;
+	margin: 0 auto;
+}
+
+section {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: rgba(255, 255, 255, .9);
+}
+section * {
+	max-width: 90%;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+section img {
+	max-width: 100%;
+}
+figure figcaption {
+	font: .5em;
+	color:  rgba(55,17,21, 1);
+	margin: 0 auto;
+	margin-bottom: 1.3em;
+}
+
+figure {
+	text-align: center;
+}
+
+/* Bottom of the page */
+section:last-of-type {
+	margin-bottom: 2em;
+}
+/* Details */
+#details div {
+	display: inline-block;
+	height: 90%;
+	max-width: 24%;
+	margin: 0em 1.3em;
+	vertical-align: top;
+}
+#details div h3 + * {
+	padding-left: 1em;
+}
+
+/* Footer*/
+footer {
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: .1em;
+	position: fixed;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	text-align: center;
+}
+
+/* Page specfic stylings */
+
+/* Market report */
+#market-report {
+	text-align: center;
+}
+#market-report table {
+	width: 90%;
+}
+#market-report table tr * {
+	min-width: 20%;
+	border: black 1px solid;
+	padding: 1em;
+	margin: 0;
+	white-space: pre-wrap;
+}
+#market-report table th,td {
+	display: inline-block;
+}
+
+/* Contact (map and email on contact.html)*/
+#contact section {
+	width: 49%;
+	height: 100%;
+	margin: 0em;
+	padding: 0em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contact h3 {
+	text-align: center;
+}
+
+#map {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	left: 0;
+}
+
+#message-form div {
+	margin: 0em;
+	padding: 0em;
+	width: 100%;
+	display: inline-block;
+}
+#message-form div * {
+	display: inline-block;
+	margin: 0;
+
+}
+#message-form input{
+	float: right;
+}
+#message-form textarea {
+	width: 80%
+}
