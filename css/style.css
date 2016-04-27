@@ -15,7 +15,7 @@ selector {
 /* Type selector */
 
 p { /* select <p> */
-font-size: 16px; /* 16px, 7pt, 100%, 1em */
+font-size: 1em; /* 16px, 7pt, 100%, 1em */
 line-height: 1.5em;
 }
 figcaption {
@@ -43,7 +43,7 @@ figcaption {
 
 /* Descendent Selector */
 #logo h1 { /* selects <h1> if inside the id="logo" */
-font-family: 'Clocker Script', cursive;
+font-family: 'Clicker Script', cursive;
 }
 
 #logo h2 {
