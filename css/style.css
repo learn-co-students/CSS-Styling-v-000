@@ -1,0 +1,21 @@
+/* This is a comment! */
+/* This
+is
+a multiline comment */
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type selector */
+
+p {
+  font-size: 16px; /* 16 px, ?pt, 100%, 1em, etc */
+  line-height: 1.5em;
+  
+}
