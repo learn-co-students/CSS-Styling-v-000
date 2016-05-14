@@ -28,8 +28,38 @@ figcaption {
 
 /* Class selector (applied to as many elements as you like) */
 
-.milk-text {
+.milk-text {    /* select elements with the class="milk-text" */
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (apply to one unique element per page) */
+#logo {     /* select elements with the id="logo" */
+  background-color: aqua;
+}
+
+/* Descentdent Selector */
+#logo h1 { /* selects <h1> if inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo Selector */
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
 }
