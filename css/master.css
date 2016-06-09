@@ -1,0 +1,51 @@
+/* This is a comment */
+
+@import url(https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script);
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: .75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;
+  color: grey;
+  text-align: right;
+}
+
+.milk-test {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background-color: red;
+}
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+}
+
+#details a:link,
+#details a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
