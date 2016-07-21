@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script);
+/*
+CSS Syntax:
+selector {
+property: value;
+property: value;
+}
+*/
+
+/*Type Selector*/
+p {/*select all <p> elements */
+  font-size:1em;/* 16px, ?pt, 100%, 1em */
+  /*16px = 1em*/
+  line-height: 1.5em;
+  }
+
+figcaption {
+/*font-weight: normal;
+font-size: 0.75em;
+line-height: 1.5em;
+font-family: Georgia, "New Times Roman", serif;  */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #777;
+  text-align: right;
+/* rbga(1,2,3,4), hex code hack:  if there are doubles, shorthand.  example:  #AACC77= #AC7 (all 3 positions must match)*/
+}
+
+/*class Selectors(as many as you'd like)*/
+
+.milk-text { /*class="milk-text"*/
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+/* ID selector (applies to one unique element per page)*/
+
+#logo {/* id= "logo"*/
+  background: aqua;
+}
+
+/* Descendent selector*/
+
+#logo h1 { /*only selects the h1 within the original "logo" id selector */
+  font-family: 'Clicker SCript', cursive;
+}
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*pseudo class selector descendant + pseudo (you can stack pseudo selectors)*/
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red
+}
