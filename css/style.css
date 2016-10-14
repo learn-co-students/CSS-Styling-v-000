@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+/*importing fonts!, which is just more CSS code*/
+/*
+Blah blah blah
+*/
+
+/* CSS syntax:
+selector {
+    property: value;
+    multiple: work;
+    just: fine;
+}
+
+*/
+
+/*Type Selector*/
+
+p {
+    /*select all p*/
+    /*1em is the size of an "M" standard of 16px*/
+    font-size: 1em;
+    line-height: 2em; /*or 32px*/
+}
+
+figcaption{
+    /*font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family: Georgia, "New Times Roman", serif; /*because of space must use quotes*/*/
+    font: normal 0.75em/1.5em "Bungee Inline",cursive ;
+
+    /*Georgia,"New Times Roman",serif;*/
+    color: #777;
+    text-align: right;
+    /*rgba(225,0,0,0.5);*/
+    /*#AACC77 = #AC7 Only works when doubles in all 3 positions*/
+
+}
