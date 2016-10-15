@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps')
-@import url('https://fonts.googleapis.com/css?family=Clicker+Script')
+@import 'http://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps';
+/*google font import command link is diff and fails to work
+@import url('httpS://fonts.googleapis.com/css?family=Clicker+Script&subset=latin-ext');
+SEE the CapS? it's the diff btwn failure and success
 /* This is a comment! */
 /* @import url('https://fonts.googleapis.com/css?family=Clicker+Script')
 
