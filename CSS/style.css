@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+
+/* This is a comment in CSS! */
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+  always make sure to end each line with a semicolon
+}
+
+*/
+
+/* type selector */
+
+p {
+  /* select all <p> */
+  font-size: 1em; /* this could be pixels (as it is now), or 7pt, or 100%, or 1em. pixels are same everywhere. points aren't. if u wanna use em's, just divide pixels by 16. that's why 16px = 1em. */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
+you can actually write all this like the following
+   */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #777; /* this is a gray */
+  text-align: right;
+}
+
+/* CLASS SELECTORS (applied to as many elements as you like)
+in the first one i'm using the . selector */
+
+.milk-text { /* selects elemenets with class="milk-text"
+remember, then go into the opening brackets in the html and declare the class. like if u had
+<h2> Featured listings </h2>
+make it
+<h2 class="milk-text">
+ */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+  /* above, the values are horizontal offset, vertical, blur radius, and finally color */
+}
+
+/* ID SELECTOR (apply to only one unique element per page)
+so we took two headings and set a div and an id
+
+WE USED POUND for ID selector    */
+
+#logo {
+  background: aqua
+}
+
+/* Descendent selector.  as i wrote it it will only style H1's within an element with the ID of logo  */
+#logo h1 {
+font-family: 'Clicker Script', cursive;
+}
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* pseudo selectors; you pick an element, and style its event states. so you'd want to style all links, but depeneding on certain events or w/e */
+/* here i'm using a descendent selector; i identify the ID of details, but follow it with a space, denoting that I want to style descendents of it. when i pick which descendents, i'm using a pseudo selector--looking at links, only in link state */
+
+#details a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
