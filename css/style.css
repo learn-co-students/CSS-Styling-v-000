@@ -1,0 +1,22 @@
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+
+ */
+
+ /* Type selector */
+
+ p { /* select all <p> */
+    font-size: 5em; /* in pixels 16px, points 7pt, 100% percentage relative to itself and parent elements, 1em is 16 pixels in most browsers */
+    line-height: 1.5em;
+  }
+
+  figcaption {
+    font-weight: normal;
+    font-size: 0.5em;
+    line-height: 10em;
+    font-family: Georgia, "New Times Roman", serif;
+  }
