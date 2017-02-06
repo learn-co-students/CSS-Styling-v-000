@@ -8,7 +8,7 @@ then copy and paste url to top of CSS file. */
 /* CSS Syntax:
 
 selector {
-	property: value;
+	property: value;  <-- These are called "Declaration"
 	property: value;
 }
 */
