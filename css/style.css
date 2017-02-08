@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* To import fonts, go to Google Fonts, Search for font you would like to use, Select
+font, open "Family Selected" box, select "Customize" if needed, click on "@Import" and
+then copy and paste url to top of CSS file. */
+
+/* CSS Syntax:
+
+selector {
+	property: value;  <-- These are called "Declaration"
+	property: value;
+}
+*/
+
+/* Type selector */
+
+p { /* select all <p> "paragraph" elements */
+  font-size: 1em; /* Default in most browsers is 16px (or 1em). font-size: can also be
+  set to one of the following: 16px(pixels), ?pt(points), 100%(percentage), 1em(emm)
+  "em" has some advantages over pixels.  16px = 1em */
+  line-height: 1.5em;  /* changes line height 1.5em = 24px */
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+
+  /* the following code is equivalent to above */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #777777;  /* # followed by six(6) zeros is a color. First two are for RED, center
+  two are for GREEN, and last two are for BLUE. Zero(0) is the absence of light, or BLACK.
+  Zero(0) is the lowest and "F" is the highest. For example, #FF0000 = RED and #00FF00 = GREEN
+  and #0000FF = BLUE. If all three(3) sets match, you can short-hand, so #770077 = #707.
+
+  You can also use rgba(255,0,0,0.5), where a = alpha(or opacity). If a = 0.5 then opacity = 50% */
+  text-align: right;
+}
+
+/* Class selector (can be applied to as many elements as you like per page) */
+
+.milk-text { /* Class selectors start with a period(.). This will select elements with class=milk-text */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;   /* first number is horizontal offset, second number is vertical offset,
+  third number is blur radius, and fourth number is color */
+}
+
+/* ID selector (only apply to one unique element per page) */
+
+#logo { /* ID selectors start with a hash or pound (#). This will select elements with id=logo */
+  background-color: aqua;
+}
+
+/* Descendent selector (this selects the descendents within a parent element) */
+
+#logo h1 { /* this selects the <h1> element inside the "id=logo" nested parent */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo Class selector */
+
+#details a:link, #details a:visited { /* Descendent selector followed by Psuedo selector. Here we want to style the links within
+  the "details" section of our index.html page. You can also create a compound selector by separating them with a comma (,) to
+  affect the state of the link */
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
