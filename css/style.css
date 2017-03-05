@@ -67,3 +67,7 @@ figcaption {
 #details a:active {
   color: red;
 }
+
+p {
+  color: black;
+}
