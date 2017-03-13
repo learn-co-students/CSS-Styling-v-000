@@ -1,0 +1,15 @@
+/* style.css */
+
+/*
+CSS Syntax
+selctor {
+  declaration; ==> property: value;
+}
+*/
+
+/*Type selector*/
+
+p {
+  font-size: 1em; /* 1em is approximately 16px*/
+  line-height: 1.5em;
+}
