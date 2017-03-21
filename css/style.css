@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Jim+Nightshade|Oswald');
+/* Usage
+font-family: 'Jim Nightshade', cursive;
+font-family: 'Clicker Script', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+/* This is a comment! */
+
+/* Css syntax :
+
+selector {
+  property : value;
+  property : values;
+}
+*/
+/*Type Selector*/
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+figcaption{
+/*font-weight: normal;
+font-size: 0.75em;
+line-height: 1.5em;
+font-family: Georgia,"New Times Roman",serif;*/
+font: normal 0.75em/1.5em 'Jim Nightshade', cursive;
+color: teal;
+}
+
+/* Class selector (applied to as many elements as you like)*/
+
+.milk{
+  font: bold 2.6em 'Clicker Script', cursive;
+  color: white;
+  text-shadow : 0 2px 3px #000
+}
+
+/*ID selector (apply to one unique element in page)*/
+
+#logo{
+  background-color: fuchsia;
+}
+
+#logo h1{
+  color: gold;
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+}
+
+#logo h2{
+  color: silver;
+  font-family: 'Clicker Script', cursive;
+}
+  /*Pseudo Selector */
+
+#details a:link, #detail a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+#detail a:active{
+  color: green;
+  font-weight: bold;
+  text-decoration: overline;
+}
