@@ -16,7 +16,7 @@ selector {
 
 <<<<<<< HEAD
 p { /* Select all <p> elements */
-  font-size: 16px, /* 16px, ?pt, 100%, 1em */
+  font-size: 16px; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5;
 
 =======
@@ -68,6 +68,6 @@ figcaption {
 }
 
 #details a:active {
-  color: red;  
+  color: red;
 >>>>>>> site-style
 }
