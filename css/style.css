@@ -39,12 +39,12 @@ figcaption {
 
 #details a:link, #details a:visited {
     color: black;
-    text-derocation: none;
+    text-decoration: none;
 }
 
 #details a:hover {
     color: black;
-    text-derocation: underline;
+    text-decoration: underline;
 }
 
 #details a:active {
