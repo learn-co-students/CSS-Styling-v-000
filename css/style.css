@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+/* This is a comment */
+/* CSS Syntax:
+selector{
+  property: value; (this is called a delcaration)
+  we end with a semicolin so broswer does not
+  get confused in thinking we are not
+  finished with our delclaraiton
+}
+*/
+
+p {
+  font-size: 16px; /*shy away from pt since it is
+  diff in broswers, 1em is 16px in most browsers*/
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  /*must use quotes if font family has spaces*/
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  /*The font property allows us to write weight,size,heigh and
+  family in one line*/
+  color: #777;
+  /*red-green-blue*/
+  /*rgba..a ranges from 0 to 1..represents percents opacity*/
+  text-align: right;
+}
+
+/*Class selector (applied to many elements as we like
+can be different elements)
+*/
+
+.milk-text {/*this will select elements with class="milk-text"*/
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (apply to 1 unique element per page) */
+
+#logo {/* select elements with id="logo"*/
+  background: aqua;
+}
+
+/*Descendent Selector
+selects descendents within parent element*/
+
+#logo h1 { /*this will only style h1 within logo */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo Class Selectors
+selects elements based on relationships among elements or
+event states - lets style links within Contact,Links and Follow*/
+/*details is decendent, :link is Psuedo*/
+#details a:link, #details a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+/*#details a:visited {
+  color: black;
+  text-decoration: none;
+}
+Because we are going to use the same color and text-deco,
+we can just create a compound selector..
+seperated by comma above in the pseudo select*/
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
