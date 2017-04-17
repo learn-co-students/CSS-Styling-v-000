@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps|Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
+/* This is just a comment */
+/* CSS Syntax review
+selector {
+	property: value;
+	property: value;
+}
+
+Type Selector
+p { will select all "p" elements }
+ */
+
+html { font-size: 1em;
+    line-height: 1.5em;
+    font-family: sans-serif;
+ }
+
+
+figcaption {
+ 	/*font-weight: bold;
+ 	font-style: italic;
+ 	font-size: 0.75em;
+ 	line-height: 1.5em;
+ 	font-family: "Times New Roman", serif;
+ 	*/
+ 	font: italic 0.75em/1.5em 'Elsie Swash Caps', cursive;
+ 	color: #CD2112;
+ 	text-align: right;
+ }
+
+ /* class selector starts with period "." and is applied to as many elements as you like */
+ .cheese-text { /* select elements with class="cheese-text" */
+ 	font: bold 2.6em 'Elsie Swash Caps', cursive;
+ 	color: white;
+ 	text-shadow:0 2px 3px #000;
+ }
+
+ /* ID selector can only be applied to one element per page */
+ #logo { /* select elements with id="logo" */
+	background: #deef87;
+ }
+
+/* Descendent Selector */
+#logo h1 { /* will only style h1's inside a 'logo' ID */
+	font: 2.3em/1.3em 'UnifrakturCook', cursive;
+}
+
+#logo h2 {
+	font: bold italic 1.6em/1.5em 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo Selector */
+#details a:link, #details a:visited {
+	color: green;
+	text-decoration: none;
+}
+
+#details a:hover {
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#details a:active {
+	color: red;
+}
