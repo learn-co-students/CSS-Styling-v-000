@@ -1,0 +1,56 @@
+/* CSS Syntax
+selector {property; value;}
+Type Selector p { selects all <p>}
+Class selector (applied to multiple elements)
+ID selector (apply to one unique element per page)
+Descendent selector (desscendents within any other element)
+Pseudo Selector
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+
+p {font-size: 1em;/* #em = sie of 'm'*/
+line-height: 1.5em;}
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #black;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  font-family: 'Elsie Swash Caps', cursive;
+  color: rgba(131,51,58,1);
+  text-align: right;
+}
+
+#logo {
+  background: aqua;
+}
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps'
+}
+
+#details a:link, #details a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active  {
+  color: red;
+}
