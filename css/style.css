@@ -44,21 +44,23 @@ figcaption {
 
 #logo { /*select elements with id="logo"} */
   background: aqua;
+}
 
 /* Descendent Selector */
 
-#logo h1{ /select elements with id="logo" */
-  font-family: 'Clicker Script', cursive
+#logo h1 { 
+  font-family: 'Clicker Script', cursive;
 }
 
-#logo h2 {font-family: 'Elsie Swash Caps', cursive;
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
 }
 
 /* Pseudo Selector */
 
 #details a:link, #details a:visited {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
   }
 
 #details a:hover {
