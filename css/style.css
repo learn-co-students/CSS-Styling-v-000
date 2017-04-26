@@ -15,6 +15,6 @@ figcaption {
   line-height: 1.5em;
   font-family: Georgia, "New Times Roman", serif;*/
   font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
-  color: #777;
+  color: rgba(171,46,28,1);
   text-align: right;
 }
