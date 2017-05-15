@@ -1,0 +1,16 @@
+/* this is a comment in css */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+
+p {
+  font-size: 16px;
+  line-height: 1.5em
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: teal;
+}
