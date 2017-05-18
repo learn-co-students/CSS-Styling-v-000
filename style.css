@@ -1,0 +1,21 @@
+/* CSS Syntax:
+
+selector {
+property: value;
+property: value;
+}
+ */
+ p { /* select all <p> */
+   font-size: 1em; /* size of font, also = to 16px */
+   line-height: 1.5em
+ }
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", sans-serif; */
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", sans-serif;
+  color: #830e15; 
+  text-align: right;
+}
