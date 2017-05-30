@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* This is a comment */
+
+/* CSS Syntax:
+
+selector {
+    property: value;
+    property: value;
+}
+
+*/
+
+/* Type selector */
+
+p { /* select all <p> */
+    font-size: 16px; /* 16px, ?pt, 100%, 1em */
+    line-height: 1.5em;
+}
+
+figcaption {
+    font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family: font-family: 'Roboto', sans-serif;
+    /* font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;*/
+    color: rgba(255,0,0,1);
+    text-align: right;
+}
+
+/* Class selector (applied to as many elements as you ike) */
+
+.milk-text { /* select elements with the class="milk-text" */
+    font: bold 2.6em 'Roboto, sans-serif';
+    color: white;
+    text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (apply to one unique element per page) */
+
+#logo {
+    background: aqua;
+}
+#logo h1 {
+    font-family: 'Roboto, sans-serif';
+}
+/* Psuedo Selector */
+
+#details a:link, #details a:visited {
+    coor: black;
+    text-decoration: none;
+}
+#details a:hover {
+    color: black;
+    text-decoration: underline;
+}
+#details a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
