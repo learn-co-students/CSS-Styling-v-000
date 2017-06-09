@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+/*css syntax
+*/
+p {font-size: 1em;
+line-height: 1.5em;}
+figcaption { font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Clicker Script', cursive;
+  color: #777;
+  text-align: right;
+}
+.milk-text {
+font: bold ; 2.6em 'Elsie Swash Caps', cursive;
+color: white;
+text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background: aqua;
+
+}
