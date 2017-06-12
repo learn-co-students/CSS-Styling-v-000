@@ -1,0 +1,60 @@
+/* This is the style sheet for my Realty code along */
+/* when using responsive design ems are BETTER than pixels. Em is calculated
+by the width of the character M but is relative to the font. To figure out Em from
+pixels divide by 16. 16px type = 1 em */
+
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+/* font-family: 'Elsie Swash Caps', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+/* font-family: 'Clicker Script', cursive; */
+
+p {
+  font-size:1em;
+  line-height:1.5em;
+}
+
+figcaption {
+  /*font-weight:normal;
+  font-size:0.75em;
+  line-height:1.5em;
+  font-family:Georgia, "New Times Roman", serif;  */
+
+  /*all the above elements put into a single font tag */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: grey;
+  text-align:right;
+}
+
+/* Class selectors can be used for multiple elements per page */
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color:white;
+  text-shadow: 0 2px 3px black;
+}
+
+/* ID selectors are for one unique element per page */
+#logo{
+  background:aqua;
+}
+
+/* Descendent selector - this will only style <h1>'s if they are inside the id  #logo  */
+#logo h1{
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2{
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Pseudo selector time ! */
+#details a:link, #details a:visited{
+  color:black;
+  text-decoration: none;
+}
+#details a:hover{
+  color:red;
+  text-decoration:underline;
+}
+#details a:active{
+  color:red;
+}
