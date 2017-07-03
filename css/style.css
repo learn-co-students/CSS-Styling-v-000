@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* @import lets you import other css code from another source online, relevant locations listed after @import at top of file  - using fonts in code explained on Google Fonts, but e.g., Clicker Script: font-family: 'Clicker Script', cursive; */
+
+/* This is
+a comment. */
+
+/* CSS Syntax
+
+selector {
+  property: value;
+  property: value;
+}
+
+/*
+
+/* Type selector */
+
+p { /*select all <p> */
+  font-size: 1em; /* = 16px, 7pt, 100% */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; above not needed due to all-encompassing font*/
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;
+  color: #777;
+  text-align: right;
+}
+
+/* Class selectors (applied to as many elements as you like) */
+
+.milk-text { /* select elements with class attribute "milk-text" */
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selectors (apply to only one unique element per page) */
+
+#logo { /* select element with the ID "logo" */
+  background: aqua;
+}
+
+/* Descendent selector (select descendents of another parent element) */
+
+#logo h1 { /* select <h1> element only if it's inside element with ID "logo" */
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/* Pseudo (class) selectors (based on relationships among other elements or event states such as link states) */
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
+
+
+/* note: px is absolute/exact, pt depends on browser, % is relative & depends on elenent and parent elements, em is relative & depdends on font/size of letter "m" - generally, 1em = 16px
+(em preferable to px - calculating em to pixel = # of px you'd like to use divided by the default, which is 16) */
