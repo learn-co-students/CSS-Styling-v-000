@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Indie+Flower');
+
+
+/* This is a comment */
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-wegiht: normal;
+  fontzie: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Indie+Flower', 'Bellefair', Goergia, serif, "New Times Roman";
+  color: #777;
+  text-align: right;
+}
+
+/* Class Selector (applied to as many elements as you like) */
+
+.milk-text { /* selects elements with a class attribute = to milk-text */
+  font: bold 2.6em 'Indie+Flower', cursive;
+  text-shadow" 0.2px 3px #000;
+}
+
+#logo {
+  background-color: pink;
+}
+
+#logo h1 {
+  font-family: 'Bellefair';
+}
+
+#logo h2 {
+  font-family: fantasy;
+}
+
+#details a:link, #details a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: aqua;
+}
