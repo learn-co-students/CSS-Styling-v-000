@@ -6,7 +6,7 @@
 2. Review writing selectors.
 3. Styling text content.
 
-## Introduction!
+## Introduction!!
 
 In this code along exercise we will be adding style to our pages by linking an external CSS file.
 
