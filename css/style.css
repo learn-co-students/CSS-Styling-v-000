@@ -1,0 +1,41 @@
+/* This is a comment */
+
+p {
+	font-size:1em;
+	line-height:1.5em;
+}
+
+figcaption {
+	font-weight:normal;
+	font-size:0.75em;
+	line-height: 1.5em;
+	font-family:'Elsie Swash Caps', cursive;
+	color:#777777;
+}
+
+.milk-text {
+	font:bold 2.6em 'Elsie Swash Caps', cursive;
+	color:#ffffff;
+	text-shadow: 0 2px 3px #000000;
+}
+
+#logo {
+	background:aqua;
+}
+
+/* Descendant Selector */
+#logo h1 { /* Selects h1 inside element with id="logo" */
+	font-family: arial, cursive;
+	color:red;
+}
+
+/*Pseudo class selectors */
+#details a:link, #details a:visited {
+	color:black;
+	text-decoration:underline;
+}
+
+#details a:hover {
+	color:red;
+	text-decoration:underline;
+}
