@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* Type Selector */
+p {
+  font-size: 16em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #777;
+  text-align: right;
+}
+
+/* Class Selector */
+.milk-text { /*selects elements with a class attribute equal to milk-text */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selector (apply to one unique element per page)*/
+#logo { /*selects elements with a id attribute equal to logo */
+  background: aqua;
+}
+
+/* Descendent Selector */
+#logo h1 { /*selects h1s if they are inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 { /*selects h2s if they are inside the id="logo" */
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Pseudo Selector */
+#details a:link, #details a:visited { /* the space between details and a declares it as a descendent selector and the :link declares it as a pseudo selector. The comma allows us to apply the same style to 2 different elements. */
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
