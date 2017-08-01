@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+
+selector{
+  property: value;
+  property: value;
+
+}
+/* Type selector */
+
+p{ /* select all <p>*/
+  font-size: 1em; /* 16px, 7pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption{
+  /*font-weight: normal;
+  font-size: .75em;
+  line-height: 1.5em;
+  font-famil: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;;
+  color: /*rgba( 255, 0, 0, 1)*// #777;
+  /*text-align: right;*/
+}
+
+/* class selectors (applied to as many elements as you like) */
+.milk-text{
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* id selector one unique element per page */
+
+#logo{
+  background: aqua;
+}
+
+/* Descendent Selector */
+#logo h1{/*only h1 if inside element with ide=logo*/
+  font-family: "Clicker Script", cursive;
+}
+#logo h2{
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/* Pseudo Class selectors */
+#details a:link, #details a:visited{
+  color: black;
+  text-decoration: none;
+}
+#details a:hover{
+  color: black;
+  text-decoration: none;
+}
+#details a:active{
+  color: red;
+}
