@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* CSS Syntax
+CSS is made up of declarations inside of selectors
+Declarations can have as many property and values you like
+separated by a semicolon (;)
+
+selector {
+  property: value;
+}
+*/
+
+/* Type Selector - allows the selection of an item using its
+tag name
+*/
+p { /* Selects all paragraphs */
+  font-size: 1em; /* Default size for most browsers is 16 pixels
+                    but size can be given in px, pt, %, or em
+                    1em = 16 pixels*/
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;
+  color: #000;
+  text-align: left;
+}
+
+/* Class Selectors can be applied to as many HTML elements as you
+like - Classes are defined using .<class name> */
+
+.milk-text{ /* Will select elements with a class attribute of 'milk-text' */
+  font: bold 2.6em "Clicker Script", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selector applies to one unique element per page with the
+unique specifed ID attribute */
+#logo { /* Select elements with ID='logo' */
+  background: aqua;
+}
+
+/* Descendent selector */
+#logo h1 { /* Selects h1 headers only if they are inside an element
+          with the id='logo' */
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 { /* Selects h2 headers only if they are inside an element
+          with the id='logo' */
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/* Pseudo Selector */
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
