@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* This is a comment!
+*/
+
+/* CSS syntax review
+
+selector {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* type selector - selects and styles all elements of the defined type */
+
+p { /* will style all p elements */
+  font-size: 16px; /* 16px, ?pt (varies per browser), 100% (browser specific), 1em (size of the letter m. this number/16px = em so 1 em = 16px, 2em = 32px etc)*/
+  line-height: 24px; /* 1.5 em*/
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Lato, "comic sans", sans-serif;*/
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;
+  color: gray;
+  text-align: right;
+}
+
+/* Class selectors can be added selectively to any elements with class="" */
+.milk-text {
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo { /* will select elements with the ID = logo*/
+  background-color: aqua;
+}
+
+/* Descendent selector*/
+#logo h1 {
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/*pseudo selector selects elements in a certain state*/
+
+#details a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
