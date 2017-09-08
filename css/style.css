@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:900');
+
+/*This above was from google.com/fonts (elsie swash caps and then clicker script).  This is the import method.  If you do that, it goes at the very top of the style sheet and does not need <style> tags. If you input the url above in a broswer, you can see google is just linking this to a font on their server and using font-family*/
+
+/* This is a comment */
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value; -- ALWAYS END WITH SEMI-COLEN SO BROWSER DOESN'T GET CONFUSED AND THINK MORE VALUES ARE COMING
+}
+
+a type selector is simply something like: */
+
+p {
+  font-size: 1em; /* 16px */;
+  line-height: 1.5em;
+}
+  /*-- default for most browsers is this size, 16px;
+  you might also see pt for points (which are not the
+  same across broswers) OR 100% or 1em. Pixels will be the same across broswers. % and ems will be relative amounts.  Em is the width of an m.  The is 16px. In responsive design, there is value in using ems, but we'll discuss later.  To calculate ems from pixels -- take amount of pixels you'd like to use and divide it by the default (16px).  So 16px font size is equal to 1 em,] */
+
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia,"New Times Roman", serif; */
+  /* need quotes around NTR because there is a space bw the words. Remember, we are putting multiple fonts to serve as backups in case the first ones don't work.*/
+  /* using ems here helps us keep everything relative to the font for <p> above */
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive; /*Georgia, "New Times Roman", serif; */ /* note that "font:" is a nifty shorthand that can encapsulate all the commpented-out properties and values above */
+  color: #777;
+  text-align: right;
+}
+
+
+/* don't forget about google fonts! go to google.com/fonts -- see above at very top */
+
+/* class selector (applied to as many elements as you like */
+
+.milk-text {
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selectors -- can only be applied to one unique element per page */
+
+#logo {
+  background: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /*selects h1 only if inside the element with the id logo */
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/* Psuedo Selectors - select based on event state or relationship to other elements */
+
+#details a:link, #details a:visited {
+    /* NOTE how the above combines both descendent selectors, then pseudo selectors, and then compound selectors */
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
