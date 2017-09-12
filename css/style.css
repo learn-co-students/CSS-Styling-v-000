@@ -1,0 +1,33 @@
+/* comment */
+/* i wanna review something */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: Roboto,sans-serif;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  text-align: right;
+}
+
+#logo {
+  font-size: 2em;
+  background: white
+}
+
+#logo h1{
+  font-family:Times;
+}
+
+/* pseduo css */
+
+#details a:link, #details a:visited{
+  color: black
+}
