@@ -16,3 +16,9 @@ figcaption {
   color: rgba(214,	182	, 101, 1);
   text-align: right; 
 }
+
+.saira-text {
+  /* this will select elements with the class of .saira-text */
+  font: bold 2.6em 'Raleway', sans-serif; 
+  color: rgba(222,107,33, 0.5)
+}
