@@ -1,0 +1,10 @@
+h1 {
+  color: red; 
+  font-size: 200px; 
+}
+
+figcaption {
+  font: normal 0.75em/1.5em Georgia, "Times New Roman", serif;
+  color: rgba(214,	182	, 101, 1);
+  text-align: right; 
+}
