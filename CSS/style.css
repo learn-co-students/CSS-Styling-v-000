@@ -3,7 +3,11 @@
 /* add in CSS rules: font-family: 'Saira Extra Condensed', sans-serif;      */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 /* add in CSS rules - font-family: 'Raleway', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+/* add in CSS rules - font-family: 'Nosifer', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Nosifer');
+/* add in CSS rules - font-family: 'Fascinate Inline', cursive;
+ */
 
 
 h1 {
@@ -21,4 +25,10 @@ figcaption {
   /* this will select elements with the class of .saira-text */
   font: bold 2.6em 'Raleway', sans-serif; 
   color: rgba(222,107,33, 0.5)
+ 
+}
+
+.nosifer-text {
+  font: bold 3.7em 'Nosifer', cursive;
+  color: rgba(14,53,7);
 }
