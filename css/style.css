@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 
+<<<<<<< HEAD
 /* This is a comment */
+=======
+/* This is a comment!*/
+>>>>>>> 752088c89bd96c101f8cd2030bd2a7dc8d6edfe5
 
 /* CSS Syntax:
 
@@ -9,6 +13,7 @@ selector {
   property: value;
   property: value;
 }
+<<<<<<< HEAD
 
 */
 
@@ -17,6 +22,16 @@ selector {
 p {/* select all <p>  */
   font-size: 16px; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
+=======
+*/
+
+/* Type selector */
+
+p { /* select all <p> */
+  font-size: 16px; /* 16px, ?pt, 100%, 1em */
+  line-height: 1.5em
+
+>>>>>>> 752088c89bd96c101f8cd2030bd2a7dc8d6edfe5
 }
 
 figcaption {
@@ -29,16 +44,27 @@ figcaption {
   text-align: right;
 }
 
+<<<<<<< HEAD
 /*class selectors (applied to as many elements as you like) */
 
 .milk-text { /*select elements with class="milk-text"}*/
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
+=======
+/* class selector (applied to as many elements as you like)*/
+
+.milk-text { /* select elements with class= "milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+
+>>>>>>> 752088c89bd96c101f8cd2030bd2a7dc8d6edfe5
 }
 
 /* ID selector (apply to one unique element per page)*/
 
+<<<<<<< HEAD
 #logo { /* select elements with id="logo"*/
   background: aqua;
 }
@@ -46,6 +72,15 @@ figcaption {
 /* Descendent Selector*/
 
 #logo h1 { /* select <h1> if inside the id="logo"*/
+=======
+#logo {/* select elements with id="logo" */
+  background: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /* select <h1> if inside the id="logo" */
+>>>>>>> 752088c89bd96c101f8cd2030bd2a7dc8d6edfe5
   font-family: 'Clicker Script', cursive;
 }
 
@@ -55,6 +90,7 @@ figcaption {
 
 /* Psuedo Selector */
 
+<<<<<<< HEAD
 #details a:link /* #details a:visited */ {
   color: black;
   text-decoration: none;
@@ -63,11 +99,21 @@ figcaption {
 #details a:visited {
   color: black;
   text-decoration: none;
+=======
+#details a:link, #details a: visited {
+  color: black;
+  text-decoration: none;
+
+>>>>>>> 752088c89bd96c101f8cd2030bd2a7dc8d6edfe5
 }
 
 #details a:hover {
   color: black;
   text-decoration: underline;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 752088c89bd96c101f8cd2030bd2a7dc8d6edfe5
 }
 
 #details a:active {
