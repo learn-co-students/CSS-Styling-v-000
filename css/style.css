@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+
+/* This is the style sheet */
+
+/* CSS Syntax:
+selector {
+  property: value;
+  property: value;
+}
+*/
+
+/* Type selector */
+p {/* select all <p>}*/
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, Arial, serif*/
+  font: normal 0.75em/1.5em "Clicker Script",Georgia,"New Times Roman",serif;
+  color: grey;
+  text-align: right;
+}
+
+/* Class selector */
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background-color: aqua;
+}
