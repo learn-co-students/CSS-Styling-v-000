@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css?family=Elsie');
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 
 
+=======
+>>>>>>> 6708e6ba2273fa523ed68dcfe03c4a714020a245
 /* This 
 is a 
 comment */
@@ -18,16 +21,24 @@ selector {
 /* Type Selector*/
 
 p { /* select all  <p> */
+<<<<<<< HEAD
     font-size: 16px; /* 16px, ?pt, 100%, 1em */
+=======
+    font-size: 48px; /* 16px, ?pt, 100%, 1em */
+>>>>>>> 6708e6ba2273fa523ed68dcfe03c4a714020a245
     line-height: 1.5em;
 }
 
 figcaption {
+<<<<<<< HEAD
     /*
+=======
+>>>>>>> 6708e6ba2273fa523ed68dcfe03c4a714020a245
     font-weight: normal;
     font-size: 0.75em;
     line-height: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+<<<<<<< HEAD
     */
     font: normal 0.75em/1.5em 'Clicker Script', cursive;
     color: #777;
@@ -74,3 +85,6 @@ figcaption {
 #details a:active {
     color: red;
 } 
+=======
+}
+>>>>>>> 6708e6ba2273fa523ed68dcfe03c4a714020a245
