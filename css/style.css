@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/*
+CSS Syntax
+
+selector {
+  propery: value;
+  property value;
+}
+*/
+
+/* Type Selector */
+p { /* select all <p> elements */
+  font-size: 1em; /* 16px (pixels), Xpt (points),
+  100% (percent is relative. dependent upon the element and parent elements), 1em (width of letter "m")*/
+  line-height: 1.5em;
+}
+
+figcaption {
+/*  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;
+  color: #777;
+  text-align: right;
+}
+
+/* Class Selector (applied to as many elements as you like, unlike Type Selector above)*/
+
+.milk-text { /*Select elements with class="milk-text"*/
+  font: bold 2.6em "Elsie Swash Caps", curisve;
+  color: white;
+  text-shadow: 0 2px 3px black;
+}
+
+/*ID Selector (apply to one unique element per page)*/
+#logo { /*Select Elements with the id="logo"*/
+  background: aqua;
+}
+
+/*Descendant Selector
+Select descendants within another parent element
+*/
+#logo h1 {/* selects <h1> only if they are inside an element with id="lgo"*/
+  font-family: "Clicker Script"
+}
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive
+}
+
+/*Pseudo Selector
+Based on relationship with other elements or event state
+*/
+#details a:link, #details a:visited{ /* "#details a" is descendant ":link" is pseudo */
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
