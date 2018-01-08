@@ -1,0 +1,80 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Elsie:400,900');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+</style>
+/* This is a comment*/
+/* CSS Syntax
+CSS is made up on selectors{ property: value;
+
+as many properties and values as you'd like, ends in semi colon to show
+value is done}
+*/
+
+/*Type Selector*/
+
+p{/* select all <p> */
+font-size: 1em; /* 16px(exact), ?pt(may differ from browsers), 100%(relative), 1em(size of an m) */
+line-height: 1.5em;
+
+}
+
+figcaption{
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: /* can be short hand for all above*/ normal 0.75em/1em "Elsie Swash Caps", cursive;
+color: #777;
+text-align: right;
+}
+
+/* Class Selecors apply to many elements */
+
+.milk-text{ /* will select elements with class="milk-text"*/
+font: bold 2.6em 'Elsie Swash Caps', cursive;
+color: white;
+text-shadow: 0 2px 3px #000;
+}
+
+/* ID selectors apply to one unique element per page*/
+#logo{ /* select elements with id="logo" */
+ background: aqua;
+}
+ /* Descendant Selector */
+
+ #logo h1{ /* selects h1s inside element id= logo */
+
+   font-family: "Clicker Script",cursive;
+
+ }
+
+ #logo h2{
+
+   font-family: "Elsie SwashCaps", cursive;
+ }
+
+/* Psuedo Class Selectors (event states)*/
+
+#details a:link, #details a:visited { /*Compound Delector*/
+
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover{
+  color: black;
+  text-decoration: underline;
+
+}
+
+#details a:active {
+  color: red;
+}
+
+#nav a:link{
+color: black;
+text-decoration: line-through;
+
+}
