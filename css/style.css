@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+  proprety: value;
+} */
+
+p, a, address {
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.75em;
+  font-family: Georgia, "Times New Roman", serif;*/
+  font: normal 0.75em/1.75em 'Pacifico', cursive;
+  color: rgba(135,5,100,1);
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em 'Pacifico', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #fae;
+}
+
+#logo {
+  background-color: aqua;
+}
+
+#logo h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+#logo h2 {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#details a:link, #details a:visited {
+  color:black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color:black;
+  text-decoration: underline;
+}
