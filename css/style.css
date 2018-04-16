@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+/* CSS syntax
+selector{
+  property: value;
+  property: value;
+}
+*/
+
+/* Type selector */
+
+p { /* select all <p> */
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", serif; */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #778;
+  text-align: right;
+}
+
+/* Class Selectors (as many elements as you like) */
+
+.milk-text { /*elements with attr class="milk-text"*/
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (one unique element per page) */
+
+#logo { /*elements with id='logo'*/
+  background: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /* h1 elements within #logo */
+  font-family: 'Clicker Script', cursive;
+}
+#logo h2 { /* h1 elements within #logo */
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*Pseudo Class Selectors*/
+
+#details a:link, a:visited { /*Unvisited links nested within #details*/
+  color: black;
+  text-decoration: none;
+}
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+#details a:active {
+  color: red;
+}
