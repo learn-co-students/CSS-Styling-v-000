@@ -1,0 +1,12 @@
+/* This is a comment
+selector {
+  property: value;
+  property: value;
+}*/
+p {
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: oblique;
+  color: black;
+  line-height:normal;
+}
