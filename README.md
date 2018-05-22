@@ -1,5 +1,8 @@
 # CSS Styling Code Along
 
+## Note
+Actual work was done on personal repository. See respository at Jirles/exceptional-realty. This repo was forked in order to 'pass' the accompanying lab.
+
 ## Objectives
 
 1. Review linking an external CSS file.
