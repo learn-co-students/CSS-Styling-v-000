@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Song+Myung');
+/* this is a comment */ 
+/* css syntax
+
+selector {
+    property: value;
+    property: value;
+}
+*/
+
+/* type selector */
+
+
+p { /* select all <p> */
+    font-size: 16px; /* 16px, ?pt, 100%, to caluculate em: 1em = 16px/16px(divide by default) */
+    line-height: 1.5em;
+}
+
+figcaption {
+/*  font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    you can do all in single line as below*/
+    font: normal 0.75em/1.5em 'Song Myung', serif; 
+/*  color: #777 (light grey); first 2 grouping: red, middle 2: green, last 2:blue */
+/*  0 is up past 9: a-f: f as highest value
+    ff0000 = red, 00ff00 = green, 0000ff = blue
+    3 character shorthand: 8844CC = simplified 84C
+    rgba(255,0,0,1) 0-1 : 0% to 100% = opacity
+    digital color media from spotlight and cmd shift c to copy rgba to clipboard */
+    color: rgba(214,149,87,1); 
+    text-align: right;
+}
+
+/* class selector (applied to as many elements as you like) */
+
+.milk-text {/*select elements with class="milk-text" */
+    font: bold 2.6em 'Roboto', sans-serif;
+    color: white; 
+    text-shadow: 0 2px 3px #000; /*#1.first-value - horizontal offset, 2.vertical 3.blur radius 4.color */
+}
+
+/* ID selector (apply to one unique element per page)*/
+
+#logo { /*select elements with id="milk-text" */
+    background: rgba(214, 199,87, 1)
+}
+
+#logo h1 { /*selects <h1> if inside the id="logo" */
+    font-family: 'Roboto', sans-serif;  
+}
+
+#logo h2 { /*selects <h1> if inside the id="logo" */
+    font-family: 'Song Myung', serif;  
+}
+
+/*psuedo selector */
+
+#details a:link, #details a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#details a:hover {
+    color: black;
+    text-decoration: underline; 
+}
+
+#details a:active {
+    color: red; 
+}
