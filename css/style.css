@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+*/
+/* Type Selector
+below will select all p elements */
+ p{
+   font-size: 16px;
+   line-height: 1.5em;
+}
+
+figcaption{
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+  font: normal 0.75em/1.em 'Roboto', sans-serif; Roman", serif ;
+  color: #777;
+  text-align: right;
+}
+
+/* Class Selectors (applied to as many elements a you like) */
+.milk-text { /* select elements with class = "milk-text" */
+  font: bold 2.6em 'Robot', sans-serif;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+
+
+/*  ID selector (apply to 1 unique elements per page)*/
+
+ #logo {
+  background: aqua;
+}
+
+/* Desecendent Selector will only select h1 if inside id =logo */
+#logo h1 {
+  font-family: 'Robot', sans-serif
+}
+
+/*  Pseuedo Selector */
+#details a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
+
+/*  */
