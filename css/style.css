@@ -1,0 +1,50 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+</style>
+
+
+p {
+	font-size: 1em;
+	line-height: 1.5em
+}
+
+figcaption {
+	font: normal 0.75/2.5em font-family: 'Lato', sans-serif;
+	color: rgba(255,0,0,.75);
+}
+
+.milk-text {
+	font: normal 0.75/2.5em font-family: 'Lato', sans-serif;
+	color: blue;
+}
+
+#logo {
+	background: aqua;
+}
+
+#logo h1 {
+	background: grey;
+}
+
+#logo h2 {
+	background: purple;
+}
+
+#details a:link, #details a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+
+#details a:hover {
+	color: yellow;
+}
+
+
+#details a:active {
+	color: red;
+	text-decoration: none;
+}
+
+
