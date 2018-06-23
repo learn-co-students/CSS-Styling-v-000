@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Outwrite";
+    src: url(Outwrite.ttf);
+}
+
+h1, h2 {
+    font-family: "Outwrite";
+    font-color: red
+}
