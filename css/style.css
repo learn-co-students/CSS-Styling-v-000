@@ -1,0 +1,40 @@
+p {
+  font-size:1em;
+  line-height: 1.5em;
+
+}
+
+figcaption{
+  font: normal .75em/1em Georgia, "New Times Roman", serif;
+  color: rgba(125, 21, 8, 1);
+
+}
+
+.e-text{
+  font: italic 2em/2em "Comic sans", sans-serif;
+  color: blue;
+}
+
+#promotional {
+background-color: green;
+
+}
+
+#details h3 {
+
+  background-color: red;
+}
+
+#deatils a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#details a:visited {
+  text-decoration: line-through;
+  color: yellow;
+}
+
+#details a:hover {
+  color :orange;
+}
