@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+ @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+
+/* this here is a comment ... it explains stuff. */
+
+
+/* CSS SYNTAX:
+
+The bold and the beautiful.
+
+selector {
+  property: value;
+}
+
+*/
+
+/* TYPE SELECTOR */
+
+p { /* selects all <p> elements */
+    font-size: 1em;
+    line-height: 1.5em
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", serif;*/
+  font: normal 0.75em/1.5em 'Great Vibes', cursive;
+  color: rgba(127, 21, 25, 1);
+  text-align: right;
+}
+
+/* CLASS SELECTOR
+Apply one apply all
+
+Can be applied to any number of class elements
+*/
+
+.milk-text {
+  font: bold 2.6em 'Great Vibes', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID SELECTORS
+One is the lonliest number
+
+Can only be applied to one unique element
+*/
+
+#logo {
+  background: aqua;
+}
+
+/* DESCENDENT SELECTOR */
+
+#logo h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+#details a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+  text-decoration: none;
+}
