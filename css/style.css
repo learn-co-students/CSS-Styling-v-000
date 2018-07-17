@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*
+CSS Syntax
+selector {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type Selector */
+p {/* select all <p>*/
+    font-size: 16em;
+    line-height: 1.5em;
+  }
+  
+figcaption {
+  /*font-weight: normal;*/
+  /*font-size: 0.75em;*/
+  /*line-height: 1.5em;*/
+  /*font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em Roboto, sans-serif;
+  color: #777;
+  text-align: right;
+}
+
+.milk-text { /*class="milk-text"*/
+  font: bold 2.6em Roboto, sans-serif;
+  color: #FFFFFF;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo { /* id="logo"*/
+  background: aqua;
+}
+
+#logo h1 {/*if inside id= */
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: Roboto, sans-serif;
+}
+
+#details a:link, #details a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
+}
+}
