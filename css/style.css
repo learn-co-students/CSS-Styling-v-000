@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+a {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3em;
+}
+
+#details a {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.80em;
+  line height: 1.5em;
+  font-family: 'Merienda', cursive;
+  color: red;
+  text-align: left;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+
+a:hover {
+  font-size: 1.4em;
+}
