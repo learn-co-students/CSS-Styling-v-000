@@ -1,0 +1,65 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang');
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang|Playfair+Display');
+</style>
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+
+/* Type Selector */
+
+p {
+  /* This is going to select all <p> elements */
+  font-size: 1em; /* 16px, ?pt, 100%, or 1em */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em 'Playfair Display', serif;
+  color: rgba(137,112,81,1);
+  text-align: right;
+}
+
+/* Class selector */
+
+.milk-text {/* select elements with class=milk-text*/
+  font: bold 2.6em 'Playfair Display', serif;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector: Can only be applied to one unique element per page */
+
+#logo { /*select element with the id="logo" */
+  background: : aqua;
+}
+
+#logo h1 { /*select <h1> if inside id="logo" element */
+  font-family: 'Playfair Display', serif;
+}
+#logo h2 { /*select <h1> if inside id="logo" element */
+  font-family: 'Kirang Haerang', cursive;
+}
+
+/* Pseudo Selector */
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover, {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active, {
+  color: red;
+  text-decoration: none;
+}
