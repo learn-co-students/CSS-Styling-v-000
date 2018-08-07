@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Lato|Roboto|Roboto+Mono|Source+Sans+Pro');
+
+/*
+    CSS Comment Syntax
+*/
+/* <link href="https://fonts.googleapis.com/css?family=Abel|Lato|Roboto|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> */
+
+p {
+    font-size: 1em; /* 16px, 12pt, 100%, 1em */
+    line-height: 1.5em;
+    font-family: 'Abel', 'Lato', serif;
+} 
+
+figcaption{
+    /* font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif; */
+    font: normal 0.75em/1.5em 'Roboto Mono', serif; /* same as all above */
+    color: #456;/* #000000, rgb(255,255,255), rgba(255,255,255, 0.4) */
+    text-align: right;
+} 
+
+/*
+    Class selector, id selector, descendent selector
+*/
+
+.milk-text{
+    font: bold 2.6em 'Source Sans Pro', 'Lato', serif;
+    color: whitesmoke;
+    text-shadow: 0 2px 3px #333333
+}
+
+#logo{
+    background: aqua;
+}
+
+#logo h1{
+    font-fmaily: 'Roboto', 'Time New Roman', serif;
+}
+
+#logo h2{
+    font-family: 'Source Sans Pro', 'Lato', serif;
+}
+
+#details a:link{
+    color: black;
+    text-decoration: none;
+}
+
+#details a:visited{
+    color: gray;
+    text-decoration: none;
+}
+
+#details a:hover{
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+#details a:active{
+    color: red;
+}
+/* 
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+} */
