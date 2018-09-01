@@ -35,7 +35,7 @@ figcaption {
 /* Class selector (applied to as many elements as you like) */
 
 .milk-text { /* select elements with class="milk-text" */
-font:  bold 2.6em "elsie Swash Caps", cursive;
+font:  bold 2.6em "Elsie Swash Caps", cursive;
 color: shite;
 text-shadow: 0 2px 3px #000;
 }
@@ -50,4 +50,8 @@ text-shadow: 0 2px 3px #000;
 
 #logo h1 { /* selects <h1> if inside the id="logo" */
   font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elise Swach Caps"
 }
