@@ -62,3 +62,8 @@ text-shadow: 0 2px 3px #000;
   colof: black;
   text-decoration: none;
 }
+
+#details a:link #details a:visited {
+  colof: black;
+  text-decoration: none;
+}
