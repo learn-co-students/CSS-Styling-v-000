@@ -63,8 +63,7 @@ text-shadow: 0 2px 3px #000;
   text-decoration: none;
 }
 
-#details a:active {
+#details a:hover {
   colof: re;
   text-decoration: underline;
 }
-
