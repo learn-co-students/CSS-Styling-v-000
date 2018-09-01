@@ -42,6 +42,6 @@ text-shadow: 0 2px 3px #000;
 
 /* Id selector (apply to one unique element per page)*/
 
-#logo{
+#logo { /* select elements with id= "logo" */
   background: aqua;
 }
