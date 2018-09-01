@@ -67,3 +67,8 @@ text-shadow: 0 2px 3px #000;
   colof: black;
   text-decoration: none;
 }
+
+#details a:hover {
+  colof: black;
+  text-decoration: none;
+}
