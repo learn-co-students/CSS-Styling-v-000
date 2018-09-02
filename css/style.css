@@ -1,0 +1,30 @@
+p{
+  font: 1em;
+  line-height: 1.5em;
+}
+figcaption{
+  /* font-weight: normal;
+  font-size: .75em;
+  font-family: "PT sans", sans-serif;
+  line-height: 1.5em; */
+  font: normal 0.75em/1.5em "PT sans", sans-serif;
+  color: rgba(225	226	228 0.8);
+}
+.milk-text{
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Varela Round', sans-serif; */
+}
+#logo{
+  font-family: 'Varela Round', sans-serif;
+}
+#logo h1{
+  font-family: 'Poppins', sans-serif;
+}
+#detail a:link{
+  color: black;
+  text-decoration: none;
+}
+#detail a:visited{
+  color: purple;
+  text-decoration: none;
+}
