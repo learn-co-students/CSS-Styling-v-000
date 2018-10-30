@@ -1,0 +1,62 @@
+/* This is a comment! */
+
+/* CSS Syntax:
+  selector {
+    property: value;
+    property: values;
+}
+*/
+/*Type selector */
+  p{ /* select all <p> */
+    font-size: em; /* 16px, ?pt, 100%, 1em */
+    line-height: 1.5em;
+  }
+  figcaption {
+    /*font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family: Georgia, "New Times Roman", serif;*/
+    font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+    color: #777;
+    text-align: right;
+  }
+
+/* Class selector (applied to as many elements as you like) */
+
+.milk-text { /* select elements with class="milk-text" */
+font: bold 2.6em 'Elsie Swash Caps', cursive;
+text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (apply to one unique element per page) */
+
+#logo { /* select elements iwth id="logo" */
+background: aqua;
+}
+
+/* Descendent Selector */
+#logo h1 { /* selects <h1> if inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+/* Pseudo Selector */
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+
+}
+
+#details a:active {
+  color: red;
+}
+
+/* testing */
