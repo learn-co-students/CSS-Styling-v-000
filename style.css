@@ -1,0 +1,14 @@
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family:
+}
+
+figcaption {
+/*  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Gerogia, "New Times Roman", serif; */
+  font: normal 0.75em/1.5em Gerogia, "New Times Roman", serif;
+  color: green;
+}
