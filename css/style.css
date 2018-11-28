@@ -1,0 +1,38 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+</style>
+
+
+/* this is a comment! */
+/* css syntax
+
+selector {
+  property: value;
+  property: value:
+}
+*/
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: .75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em "Elsie Swash Caps", "New Times Roman", serif;
+  color: rgba(39, 187, 222);
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
