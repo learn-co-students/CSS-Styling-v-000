@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+/*This is a commnet */
+
+/* CSS Syntax:
+
+select {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type selector */
+
+p{
+  font-size: 1em; /*16px, ?pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption {
+  font: normal 1em/1.5em 'Clicker Script', cursive;
+  color: purple;
+  text-align: center;
+}
+/* Class selector (applied to as many elements as)*/
+.milk-text {
+  font: bold 2.6em 'Cliker Script', cursive;
+  color: blue;
+  text-shadow; 0 2px 3px #000;
+}
+
+#logo {
+  background: aqua;
+}
+
+/*Descendent Selector */
+
+#logo h1{/* selects <h1> if inside the id="logo"*/
+  font-family: 'Cliker Script', cursive;
+  color:blue;
+}
+
+#logo h2{
+  color: red;
+}
+
+#details a:link, #details a:visited{
+  color: blue;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color:grey;
+  text-decoration: underline;
+}
+
+#details a:active{
+  color:red;
+}
