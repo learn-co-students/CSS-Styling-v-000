@@ -1,4 +1,5 @@
 /* This is a comment */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
 
 p {font-size: 1em; 
   line-height: 1.5em;}
@@ -8,6 +9,6 @@ p {font-size: 1em;
     font-size: 0.75em;
     line-height: 1.5em;
     font-family: Georgia, "New Times New Roman", serif;
-    color: #115599;
+    color: #777;
     text-align: right;
 }
