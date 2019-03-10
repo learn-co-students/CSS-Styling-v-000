@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps')
 
 /* This is a comment */
+=======
+/* This is a comment */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+>>>>>>> css-styling2
 
 p {font-size: 1em; 
   line-height: 1.5em;}
@@ -10,11 +16,16 @@ p {font-size: 1em;
     font-weight: normal;
     font-size: 0.75em;
     line-height: 1.5em;
+<<<<<<< HEAD
     font-family: "Elsie Swash Caps", cursive;
+=======
+    font-family: Georgia, "Elsie Swash Caps", cursive, serif;
+>>>>>>> css-styling2
     color: #777;
     text-align: right;
 }
 
+<<<<<<< HEAD
 .milk-text { 
   font: bold 2.6em "Elsie Swash Caps", cursive;
   color: white;
@@ -41,3 +52,10 @@ p {font-size: 1em;
   #details a:active { 
     color: red;
   }
+=======
+.mild-text {
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+>>>>>>> css-styling2
