@@ -1,0 +1,56 @@
+/* comment */
+@import url('https://fonts.googleapis.com/css?family=Autour+One');
+
+/* css syntax:
+
+selector {
+property: value;
+}
+/* type selector */
+p {
+  font-size:1em;
+  line-height:1.5em;
+}
+
+figcaption {
+  font: normal 0.75em/1.5em 'Autour One', cursive;
+  color: #777;
+  text-align: right;
+}
+
+/* class selector */
+.milk-text {
+  font: bold 2.6em 'Autour One', cursive;
+  color:#fff;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* id selector */
+#logo {
+  background-color:red;
+}
+
+/* descendent selector */
+
+#logo h1 {
+  font-family: Autour One', cursive;
+}
+
+#logo h2 {
+  font-family: Autour One', cursive;
+}
+
+/*pseudo selector*/
+#details a:link, #details a:visited {
+  color:black;
+  text-decoration:none;
+}
+
+#details a:hover {
+  color:black
+  text-decoration:none;
+}
+
+#details a:active {
+  color:red;
+}
