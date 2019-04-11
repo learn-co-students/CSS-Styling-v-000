@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps';
+/* This is
+ * a comment! */
+
+/* CSS Syntax:
+ 
+selector {
+  property: value;
+  property: value;
+}
+*/
+
+
+/* Type selector */
+
+p { /*selects all <p> elements */
+	font-size: 16px; /* others: 16pt, 100%, 1em
+				'em's are the width of the letter 'm' based on the font.
+				In most browsers 1em = 16px
+				A 32px font = 2em.  32/16=2 */
+	line-height: 1.5em; /* so 16px + 8px high */
+}
+
+figcaption {
+	/*
+	font-weight: normal;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	font-family: Georgia, "New Times Roman", serif; */
+	font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+	color: #777;
+	text-align: right;
+}
+
+/* Class selectors:
+ * can be applied to as many elements as you like */
+
+.milk-text { /* selects text with the class attribute equal to "milk-text". class="milk-text" */
+	font: bold 2.6em 'Elsie Swash Caps', cursive;
+	color: white;
+	text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector
+ * gets applied to one unique element per page */
+
+#logo { /* select elements with the id="logo" */
+	background: aqua;
+}
+
+/* Descendent Selector
+ * 
+ */
+
+#logo h1 { /*selects <h1> elements if they are inside elements with id="logo" */
+	font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 { /*selects <h2> elements if they are inside elements with id="logo" */
+	font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Pseudo Selector */
+
+#details a:link, #details a:visited { /* effects two selectors applying the same effects */
+	color: black;
+	text-decoration: none;
+}
+
+#details a:hover {
+	color:black;
+	text-decoration: underline;
+}
+
+#details a:active {
+	color:red;
+	text-decoration: underline;
