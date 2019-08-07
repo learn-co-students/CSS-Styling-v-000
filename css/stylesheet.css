@@ -1,0 +1,82 @@
+            
+            @import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+        
+
+        /*  font-family: 'Elsie Swash Caps', cursive;
+            font-family: 'Clicker Script', cursive;  */
+
+
+
+
+
+/* CSS Syntax:  
+selector {
+    property: value; 
+    property: value;
+} */
+
+/*Type Selector--affect all the selectors you have chosen*/ 
+
+p { 
+    font-size:  1em; /* 16px, ?pt, 100%, 1em */
+    line-height:  1.5em; 
+    color: gray;
+}
+
+figcaption  {
+   /* font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family:  Georgia, "New Times Roman", serif; */
+   font: normal  0.75em/1.5em 'Elsie Swash Caps', cursive;
+   color: red; /* red #FF0000 or #F00 or rgba(255,0,0,1) opacity 0 to 1*/
+   text-align: left; 
+}
+
+/* Class Selectors (applied to as many different types of elements as you like*/
+
+.cream-text { /*selects elements with class="cream-text" */
+    font: bold 2.6em 'Elsie Swash Caps', cursive;
+    color:  cornsilk;
+    text-shadow: 0 2px 3px black;
+
+}
+
+/* ID Selector (apply to only one unique element)*/
+
+#logo { /*Selects elements with the ID equal to "logo" */
+background-color: red;
+
+}
+
+/*Descendent Selector (selects decendants within a parent element)*/
+
+#logo h1 { /*will only style h1 that are inside logo*/
+    font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+    font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*Pseudo Class Selectors (select an element based on an event state)*/
+
+#details a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#details a:visited {
+    color: navy;
+    text-decoration: none;
+}
+
+#details a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#details a:active {
+    color: green;
+    text-decoration: underline;
+}
