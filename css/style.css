@@ -1,0 +1,96 @@
+/* This is a comment*/
+@import('https://fonts.googleapis.com/css?family=Roboto+Slab');
+/* 
+  @import allows you to import other css code
+  In this case wer're importing an @font-face method from google that connects to a font stored on google's servers
+  Now we can refer to/use this font ('Roboto-Slab') in our css file with the font-family:<font-name>; property
+*/
+
+
+/* Type Selector
+  <type> {property:value;} */
+p{
+  /* selects all <p> elements */
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Roboto-Slab';
+}
+
+figcaption{
+  /* font
+  font-weight: normal;
+    | bold
+  font-size: 0.75em;
+    | em = relative size based on the size of an m/em in a given font, for most browsers an em is 16px
+    | px = pixels, fixed size
+    | pt = points, size varies
+  line-height: 1.5em;
+    | px | pt
+    sets the size of the space between each line in the paragraph
+  font-family: Georgia, "New Times Roman", serif;
+    use comma separators and CSS will fall back to the additional fonts if the initial font isn't supported
+  is the same as:
+  */
+  font:normal 0.75em/1.5em Georgia, "New Times Roman", serif; 
+  
+  /* Color
+    name
+      red, yellow, . . . etc.
+    hexadecimal
+      #------ 
+      The six spaces will be filled wih 0-9 or A-F
+      0=the absence of light (black) & F is the ighest value of any color
+      1st two spaces = red, 2nd 2 = green, last 2 = blue
+      #FF0000 =Red, #00FF00 =Green, #0000FF =Blue, #00000 =Black
+      If each pair of spaces matches (e.g. #00AA77), then you can abbreviate it with a 3 digit shorthand (e.g. #0A7)
+    rgba
+      rgba(-,-,-,-)
+      rgba(red(0-255), green(0-255), blue(0-255), opacty(0-1))
+      rgba(255,0,0,1) =Red
+    Digitial Color Meter
+      Tool in Mac OS that let's you capture the value of any color your mouse hovers over
+      When you paste rgba values, don't forget to add commas!
+  */
+  color:#777;
+  text-align: center;
+  /* | right | left */
+}
+
+/* Class Selector
+  .<class-name> { propert:value; } */
+.milk-text{
+  /* selects elements with the attribute class="milk-text" */
+  font: bold 2.6em 'Roboto-Slab', cursive;
+  color:white;
+  text-shadow: 0 2px 3px #000;
+  /* text-shadow: horizontal-offset vertical-offset blur-radius shadow-color */
+}
+
+/* ID Selector
+  #<id-name> {property:value;} */
+#logo{
+  /* selects elements with the id="logo" */
+  background: aqua;
+}
+
+/* Descendent Selector
+  <parent> <descendent> {property:value;}
+  the space between the parent(#logo) and descendent(h1) elements tells the browser to look inside the parent for matching descendents */
+#logo h1{
+  /* this will select & style any h1s inside the element with the id="logo" */
+  font-family: 'Roboto-Slab'
+}
+
+/* Psuedo Selector
+  :<psudeo-selector>{property:value;} */
+#details a:link {
+  color:black;
+  text-decoration: none;
+}
+  /* could also combine multiple by separating with commas e.g.
+    #details a:link, #deatils a:visited {
+      color:black;
+      text-decoration:none;
+    }
+  Then both the link to start and the link after it has been visited will have the style described */
+
