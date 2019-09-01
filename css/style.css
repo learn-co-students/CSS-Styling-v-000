@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+
+/* CSS syntax:
+selector { property: value;
+          property: value;
+          property: value;
+        }
+*/
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;
+  /* the abov ecan be wrapped in one line of code:
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif; */
+  color: #777;
+  /*you can also use a color the digital color meter to match color on your page
+  you can find this tool in spotlight and it will generate the values of the color
+  based on where your cursor moves, cmd+shift+c will copy those values and you just have to
+  insert commas as needed*/
+  text-align: right;
+}
+
+/*Class selector (applied to as many elements as you like)*/
+.milk-text { /*will select elements with class attribute="milk-text"*/
+  font: bold 2.6em, 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+  /*text shadow properties are horizontal offset, vertical offset, blur radius, and color*/
+}
+
+/*ID selectors only apply to one unique element per page*/
+#logo {/*will select elements with id="logo"*/
+  background: aqua;
+}
+
+/*Descendent Selector*/
+#logo h1 { /*only selects h1 if they are inside id="logo"*/
+  font-family: 'CLicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*Psuedo Selector*/
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+  text-decoration: underline;
+}
