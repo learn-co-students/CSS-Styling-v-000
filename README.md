@@ -15,6 +15,11 @@ off by running the following in your terminal:
 git clone https://github.com/<your_username_here>/exceptional-realty
 cd exceptional-realty
 ```
+## use other prewritten css 
+for styling of an HTML page often css is used as primary source
+but to ease down your work and make projects quickly
+one should consider using bootstrap 4 or Google's materialize css 
+these are prewritten css classes to style various objects in html pages
 
 ## Steps
 
