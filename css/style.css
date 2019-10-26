@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Elsie)
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script')
+
+/*This is a comment*/
+
+/* CSS Syntax:
+
+selector {
+property: value
+property: value
+}
+
+*/
+
+/* Type Selector */
+
+p{ /*select all <p>*/
+  font-size: 1em; /* 16px, ?pt, 100%, 1 em*/ /* 1em = number of px's divided by 16*/
+  line-height: 1.5em
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  /* Intead of using the Css code above I could use the one below to accomplish the same thing... font: (font-weight) (font-size)/(line-height) (font-families) */
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  color: #777; /*color can be specified a few ways #and the reference letters/numbers rgb(255,255,255) or rgba(155,0,0,1 (this last space is opacity on a scale of 0-1 0 meaning 0% and 1 meaning 100%)) when picking a specific color Macs have a digital color meter just search digital color meter and you can copy and paste the color reference numbers*/
+  text-align: right;
+}
+
+/* Class selector (applied to as many elements as I need) */
+
+.milk-text { /* select elements with class="milk-text" */
+font: bold 2.6em 'Elsie Swash Caps', cursive;
+color: white;
+text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (applies to only one element per page)*/
+
+#logo { /* select elements with id="logo" */
+
+  background-color: aqua
+}
+
+/* Descendent selector ()*/
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*Psuedo Selector*/
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
