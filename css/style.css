@@ -1,0 +1,58 @@
+/* Type Selector */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+</style>
+
+p {
+    font-size: 1em; /* 16px, ?pt, 1005, 1em */
+    line-height: 1.5em;
+}
+
+figcaption {
+  font: normal 0.75em/1.5em Pacifico, cursive;
+  color: #777;
+  text-align: right;
+}
+
+/* Classs Selector */
+
+.milk-text { /* Selects elements of class milk-text */
+  font: bold 2.6em Pacifico, cursive;
+  color: white;
+  text-shadow: 1px 2px 3px x000;
+}
+
+/* Id Selector */
+
+#logo { /* Selects elements with id of 'logo' */
+    background: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /* Only styles <h1>'s if inside 'logo' */
+  font-family: Pacifico, cursive;
+}
+
+#logo h2 {
+  font-family: Roboto, cursive;
+}
+
+/* Psuedo Selector */
+
+#details a:link, #details a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
