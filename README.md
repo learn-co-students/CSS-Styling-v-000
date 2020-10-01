@@ -8,7 +8,7 @@
 
 ## Introduction
 
-In this code along exercise we will be adding style to our pages by linking an external CSS file. If you open this lab on the in-browser Learn IDE, all the files you need for following along will be available, and will automatically clone down. However, if you were following along using a personal `exceptional-realty` repository in the previous HTML lessons, you can continue from where we left
+In this code along with the exercise we will be adding style to our pages by linking an external CSS file. If you open this lab on the in-browser Learn IDE, all the files you need for following along will be available, and will automatically clone down. However, if you were following along using a personal `exceptional-realty` repository in the previous HTML lessons, you can continue from where we left
 off by running the following in your terminal:
 
 ```
@@ -38,7 +38,7 @@ Code along with the included video below. Some parts of the video, such as folde
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/aA8k-hK8qzg?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe>
 
-When you're finished, add, commit and push your work up. Then, checkout `master`, and merge it with the work you've done on the `css-styling` branch, and push up the `master` as well. The commands should look like the following:
+When you're finished, add, commit and push your Work Up. Then, checkout `master`, and merge it with the work you've done on the `css-styling` branch, and push up the `master` as well. The commands should look like the following:
 
 ```
 git add .
