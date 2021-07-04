@@ -1,0 +1,59 @@
+/* This is a comment */
+@import url(https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script);
+/*font-family: 'Clicker Script', cursive;*/
+/*font-family: 'Elsie Swash Caps', cursive;*/
+p {
+  font-size: 1em;
+  line-height: 1.5em
+  }
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;
+  /*OR Use: font: normal .075em/1.5em etc */
+  color: #777;
+  text-align: right;
+}
+
+/*class selectors can be applied to as many elements as you like*/
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', crusive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector can only apply to one element per page*/
+
+#logo {
+  background-color: aqua;
+}
+
+/*descendent selector*/
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*Psedu class slector*/
+
+#details a:link, #details a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
