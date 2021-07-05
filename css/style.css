@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/*@import allows you to import other css code.*/
+
+/* This is how you write comments in css pages */
+
+/* CSS syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+Always put a semicolon so the computer knows that we're done giving values to a property
+*/
+
+/* Type Selector:
+  Allows us to select elements using tag name.
+*/
+
+p { /*select all p elements*/
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Source Sans Pro';
+  /*that's the default font size. Can be set in terms of px (an exact amt) or pt (12 pt is not the same as 12 pt in Chrome or Firefox, etc. Be careful) or % (relative amt, depends on the elemnt itself and parents above it) or em (measured by width of letter m, which depends on the font. Usually 1 m is 16 px) Responsive designs favor ems. Em calc is easy: Take amt of px desired and / by default, which is 16. 16 px/16 is 1 em.*/
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 3.5em;
+  font-family: 'Source Sans Pro', sans-serif; /*because there are spaces in the font name, must use quotes*/
+  font: normal .75em/1.5em 'Source Sans Pro', Georgia, "New Times Roman"; /*You can go to Google Fonts for more fonts and ways to embed it!*/
+  color: #777 ; /* in #000000, 1st 2 digits=red, 2nd 2= green, 3rd 2=blue. The FF means the max of any of the 3 colors. Ex. #00FF00 = green. If you see something like #AACC77, it can be #AC7. Only if the two digits are double in ALL 3 categories.
+  For rgba - red, green, blue, opacity b/t 0-1: rgba(255, 0, 0, 1)
+  Cmd+shift+C on digital color meter gets you RGBA colors!*/
+  text-align: right;
+}
+/*Class selectors - as many as you'd like! Can be added and sprinkled to many elements.*/
+
+.milk-text {/*select elements with class attribute = milk-text*/
+  font: bold 2.6em Georgia, cursive;
+  color: white;
+  text-shadow: 0 2px 3px #100 /*horiz-offset vertical blur-radius color*/
+}
+
+/* ID selectors: only apply to 1 unique element per page.
+Multiple classes can apply the same element and be applied multiple times per page, but each ID only gets ONE element per page.
+Ex - and ID=logo */
+
+#logo { /* If there's a . in front of it, they'll think it's a class. When there's nothing, they'll look for an element called 'logo', because it's acting like a type selector. If #, it's an ID. */
+  background: blue;
+}
+
+#logo h1 { /*Descendent selector:
+Selects descendents within a parent element. Used for example, if we wanted a sepcific h1 to be diff than all other h1's on a page. The space means it will look for the descendent h1 inside id="logo"*/
+  font-family: 'Source Sans Pro', cursive;
+}
+
+#logo h2 {
+  font-family: Georgia, cursive;
+}
+
+/*Pseudo-class selectors:
+Select an element based on relationship amongst other elements or an event state. */
+
+#details a:link, #details a:visited { /*Here, we use both descendent selector and pseudo-class (a:link) https://css-tricks.com/pseudo-class-selectors/*/
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
