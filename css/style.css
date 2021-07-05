@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');/* This is a comment */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+/* CSS syntax:
+selectors {
+  property:values;
+}
+*/
+/* Type selector */
+p { /* select all <p> */
+  font-size: 16px, /* 16px, ?pt, 100%, 1em */
+  line-height: 1.5em
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #777	 /* shorthand for #777777 */ /*(00 = red, 00= green, 00= blue)
+          FF represents the highest amount. so
+          FF0000 represents red, 00FF00 represents
+          green and 0000FF represents blue*/ /* in spot light
+          you can type in digital color meter, and it will tell
+          you the color value anywhere you move the mouse. Command-
+          shift-c, will copy that exact value, and you can paste it
+          into your color value, you just have to seperate each
+          value with a comma, ex: rgba(153,	33,	34, 1)*/;
+  text-align: right;
+}
+/* class selectors can be applied to as many elements as you'd like
+   even different type. */
+
+.milk-text { /* this will select elements with clas ="milk-text"*/
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* id selector (apply to one unique element) always starts with #-symbol*/
+#logo { /* select elements with id (#)= logo*/
+  background: aqua;
+}
+
+/* descendent selector will select the descendent of a parent element */
+#logo h1 { /* will only style h1 if they are inside the id=logo*/
+    font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 { /* will only style h1 if they are inside the id=logo*/
+    font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo class selectors select an element based on its
+relationship with other elements and events */
+
+#details a:link{
+  color:black;
+  text-decoration: none;
+}
+
+#details a:link, #details a:visited {
+  color:black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color:black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
