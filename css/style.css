@@ -1,0 +1,18 @@
+https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans
+
+figcaption{
+    font: bold 2 6em
+}
+
+#logo h1{
+    font-family: "Clicker Script", cursive;
+}
+
+#logo h2{
+    font-family:
+}
+
+#details a:link, #details a:visited{
+    color: black;
+    text-decoration: underline;
+}
