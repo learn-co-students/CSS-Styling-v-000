@@ -1,0 +1,75 @@
+/*
+
+Selectors
+
+Type - 1 type of element
+Class - apply to as many elements as you'd like
+ID - only 1 unique element per page
+Pseudo-class - based on event state
+Attribute
+Child
+Descendant
+Sibling
+
+Default font size: 16px
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/*TYPE SELECTOR*/
+
+p {
+  font-size: 1em; /*16px, ?pt, 100%, 1em=16px */
+  line-height: 1.5em;
+}
+
+figcaption {
+/*  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; /* font names with spaces have to be encapsulated in "" */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive, "New Times Roman", serif;
+  color: #777;
+  text-align: right;
+}
+
+/*CLASS SELECTOR*/
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0.2px 3px #000;
+}
+
+/*ID SELECTOR*/
+
+#logo {
+  background: aqua;
+}
+
+/*DESCENDANT SELECTOR*/
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*PSEUDO-CLASS SELECTOR*/
+
+#details a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
