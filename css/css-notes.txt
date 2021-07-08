@@ -1,0 +1,77 @@
+ /* This is a comment.
+ multi-line, if you
+ want.
+ */
+/* CSS syntax: ;
+ selector {
+  property:value;
+  property:value;
+  property:value;
+  property:value;
+ }
+
+/* Type Selector 
+
+
+
+p { 
+  font-size: 16px = 1em;  /*  16px, ?pt, 100%, 1em
+  /*  
+
+  pixels is exact, regardles of browser
+  points vary by browser
+  % is relative depending on the element itself, and things styled above it.
+  em depends on width of 'm' of the font in use
+
+  1 em is equal to 16px in most browsers
+  calc ems from pix: 
+  "responsive design"  advantage ems to px
+
+  pixels/default(16) 
+  16px == 1em 
+  
+
+}
+
+*/
+
+p {
+  font-size: 1em;        
+  /* 16px, ?pt, 100%, 1em  */
+  line-height: 1.5em;       
+  /* if 1em = 16px, then 2em = 32px, we'll use 1.5em line-height */
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
